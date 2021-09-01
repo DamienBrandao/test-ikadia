@@ -1,0 +1,52 @@
+// Colors
+$blanc: #f5f5f5;
+$bleu: #11749e;
+$noir: #222222;
+
+// Animation Hover Menu
+#menu-principal, #menu-footer, .menu, #index-content {
+    a {
+        position:relative;
+        text-align: center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, $bleu, $bleu 50%, $blanc 50%);
+        background-size: 200% 100%;
+        background-position: -100%;
+        transition: all 0.3s ease-in-out;
+
+        &:before {
+            display:block;
+            content:'';
+            width:0;
+            height:2px;
+            left:0;
+            bottom:-3px;
+            z-index:0;
+            position:absolute;
+            background: $bleu;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+            background-position: 0%;
+            transition: all 0.3s ease-in-out;
+
+            &:before {
+                width:100%;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        
+        &.active {
+            background-position: 0%;
+            transition: all 0.3s ease-in-out;
+            
+            &:before {
+                background: $bleu;
+                width:100%;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}

@@ -1,0 +1,159 @@
+/* ----- RESPONSIVE ----- */
+/* Extra large devices (large desktops, 1200px and up - xl) */
+@media (max-width: 1200px) {
+  #hero h1 {
+    font-size: 150px;
+  }
+  #hero .powered {
+    font-size: 28px;
+    letter-spacing: 16px;
+    padding-left: 16px;
+  }
+  #hero .scroll {
+    margin-top: 60px;
+  }
+}
+/* Large devices (desktops, 992px and up - lg) */
+@media (max-width: 992px) {
+  header .navbar .navbar-toggler {
+    border: none;
+    color: #f5f5f5;
+    font-size: 35px;
+  }
+  header .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  header .navbar #main-nav {
+    text-align: center;
+  }
+  header .navbar #main-nav #menu-principal {
+    padding: 15px 0 0 0;
+  }
+  header .navbar #main-nav .search-button, header .navbar #main-nav .search-box {
+    display: none;
+  }
+  section {
+    padding: 80px 0;
+  }
+  #hero h1 {
+    font-size: 115px;
+  }
+  #hero .powered {
+    font-size: 24px;
+    letter-spacing: 11px;
+    padding-left: 11px;
+  }
+  #hero .scroll {
+    display: none;
+  }
+  h2 {
+    font-size: 34px;
+    margin-bottom: 70px;
+  }
+  #about h2 {
+    font-size: 34px;
+    margin-bottom: 70px;
+  }
+  #about .letter {
+    font-size: 200px;
+    transform: translate(-50%, -25%);
+  }
+  #about .agency {
+    margin: 15px 0;
+  }
+  #news .news-text {
+    padding: 25px;
+  }
+  #actions .action {
+    margin: 15px 0;
+  }
+  #contact h2 {
+    font-size: 34px;
+    margin-bottom: 70px;
+  }
+  #contact .letter {
+    font-size: 200px;
+    transform: translate(-50%, -25%);
+  }
+  #contact .form-group.mail {
+    margin: 40px 0;
+  }
+  #footer #footer-logo .logo {
+    max-height: 50px;
+  }
+  #footer #footer-social {
+    margin-top: 25px;
+  }
+}
+/* Medium devices (tablets, 768px and up - md) */
+@media (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header .navbar #main-nav {
+    text-align: center;
+  }
+  header .navbar #main-nav #menu-principal li {
+    margin: 5px 0;
+    width: 100%;
+  }
+  #hero {
+    padding-bottom: 300px;
+  }
+  #hero h1 {
+    font-size: 50px;
+  }
+  #hero .powered {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 2px;
+  }
+  #about h2 {
+    font-size: 30px;
+  }
+  #about .letter {
+    transform: translate(-50%, -25%);
+  }
+  #news .news-img {
+    min-height: 200px;
+  }
+  #actions .action-icon {
+    width: 100%;
+    text-align: center;
+  }
+  #actions .action-text {
+    width: 100%;
+    text-align: center;
+  }
+  #contact {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #contact h2 {
+    font-size: 30px;
+  }
+  #contact .letter {
+    transform: translate(-50%, -25%);
+  }
+  #contact .form-group {
+    padding: 0 25px;
+  }
+}
+/* Small devices (landscape phones, 576px and up - sm) */
+@media (max-width: 576px) {
+  #header .navbar .navbar-brand .logo {
+    max-height: 30px;
+  }
+  #news .news-img.left {
+    order: 1;
+  }
+  #contact .letter, #about .letter {
+    display: none;
+  }
+  #footer #footer-social ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 28px;
+  }
+}
